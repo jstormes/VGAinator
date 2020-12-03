@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/*
+ * [Video Timing Microcode](https://github.com/jstormes/VGAinator/wiki/Not-Quite-a-Computer)
+ */
+
 void displayLine() {
 
     // Display
