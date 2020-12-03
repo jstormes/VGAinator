@@ -1,1 +1,4 @@
-CMake executable is incorrect Configure
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /mnt/c/Users/jstormes/CLionProjects/VGAinator
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug
