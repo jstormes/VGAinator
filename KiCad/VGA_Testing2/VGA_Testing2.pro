@@ -1,4 +1,4 @@
-update=12/2/2020 8:03:55 PM
+update=1/12/2021 9:58:00 PM
 version=1
 last_client=kicad
 [general]
@@ -239,7 +239,7 @@ dPairViaGap=0.25
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=ProgrammbleCounterB2
+PlotDirectoryName=./
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
