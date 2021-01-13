@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named 640x480at60_25.175MHz_w_line
+
+# Build rule for target.
+640x480at60_25.175MHz_w_line: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 640x480at60_25.175MHz_w_line
+.PHONY : 640x480at60_25.175MHz_w_line
+
+# fast build rule for target.
+640x480at60_25.175MHz_w_line/fast:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/build
+.PHONY : 640x480at60_25.175MHz_w_line/fast
+
+#=============================================================================
 # Target rules for targets named 640x480at60_25.175MHz
 
 # Build rule for target.
@@ -163,6 +176,33 @@ VGAinator/fast:
 	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz.dir/build.make CMakeFiles/640x480at60_25.175MHz.dir/640x480at60_25.175MHz.c.s
 .PHONY : 640x480at60_25.175MHz.c.s
 
+640x480at60_25.175MHz_w_line_cnt.o: 640x480at60_25.175MHz_w_line_cnt.c.o
+
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.o
+
+# target to build an object file
+640x480at60_25.175MHz_w_line_cnt.c.o:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/640x480at60_25.175MHz_w_line_cnt.c.o
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.c.o
+
+640x480at60_25.175MHz_w_line_cnt.i: 640x480at60_25.175MHz_w_line_cnt.c.i
+
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.i
+
+# target to preprocess a source file
+640x480at60_25.175MHz_w_line_cnt.c.i:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/640x480at60_25.175MHz_w_line_cnt.c.i
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.c.i
+
+640x480at60_25.175MHz_w_line_cnt.s: 640x480at60_25.175MHz_w_line_cnt.c.s
+
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.s
+
+# target to generate assembly for a file
+640x480at60_25.175MHz_w_line_cnt.c.s:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/640x480at60_25.175MHz_w_line_cnt.c.s
+.PHONY : 640x480at60_25.175MHz_w_line_cnt.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -197,12 +237,16 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... 640x480at60_25.175MHz_w_line"
 	@echo "... 640x480at60_25.175MHz"
 	@echo "... edit_cache"
 	@echo "... VGAinator"
 	@echo "... 640x480at60_25.175MHz.o"
 	@echo "... 640x480at60_25.175MHz.i"
 	@echo "... 640x480at60_25.175MHz.s"
+	@echo "... 640x480at60_25.175MHz_w_line_cnt.o"
+	@echo "... 640x480at60_25.175MHz_w_line_cnt.i"
+	@echo "... 640x480at60_25.175MHz_w_line_cnt.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

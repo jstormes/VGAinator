@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-deb
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/640x480at60_25.175MHz_w_line.dir/all
 all: CMakeFiles/640x480at60_25.175MHz.dir/all
 all: CMakeFiles/VGAinator.dir/all
 
@@ -64,10 +65,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/640x480at60_25.175MHz_w_line.dir/clean
 clean: CMakeFiles/640x480at60_25.175MHz.dir/clean
 clean: CMakeFiles/VGAinator.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/640x480at60_25.175MHz_w_line.dir
+
+# All Build rule for target.
+CMakeFiles/640x480at60_25.175MHz_w_line.dir/all:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/depend
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target 640x480at60_25.175MHz_w_line"
+.PHONY : CMakeFiles/640x480at60_25.175MHz_w_line.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/640x480at60_25.175MHz_w_line.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/640x480at60_25.175MHz_w_line.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/640x480at60_25.175MHz_w_line.dir/rule
+
+# Convenience name for target.
+640x480at60_25.175MHz_w_line: CMakeFiles/640x480at60_25.175MHz_w_line.dir/rule
+
+.PHONY : 640x480at60_25.175MHz_w_line
+
+# clean rule for target.
+CMakeFiles/640x480at60_25.175MHz_w_line.dir/clean:
+	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/clean
+.PHONY : CMakeFiles/640x480at60_25.175MHz_w_line.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/640x480at60_25.175MHz.dir
@@ -103,7 +132,7 @@ CMakeFiles/640x480at60_25.175MHz.dir/clean:
 CMakeFiles/VGAinator.dir/all:
 	$(MAKE) -f CMakeFiles/VGAinator.dir/build.make CMakeFiles/VGAinator.dir/depend
 	$(MAKE) -f CMakeFiles/VGAinator.dir/build.make CMakeFiles/VGAinator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target VGAinator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target VGAinator"
 .PHONY : CMakeFiles/VGAinator.dir/all
 
 # Build rule for subdir invocation for target.
