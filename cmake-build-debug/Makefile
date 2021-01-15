@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Testing2_640x480at60_25.175MHz
+
+# Build rule for target.
+Testing2_640x480at60_25.175MHz: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Testing2_640x480at60_25.175MHz
+.PHONY : Testing2_640x480at60_25.175MHz
+
+# fast build rule for target.
+Testing2_640x480at60_25.175MHz/fast:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build
+.PHONY : Testing2_640x480at60_25.175MHz/fast
+
+#=============================================================================
 # Target rules for targets named 640x480at60_25.175MHz_w_line
 
 # Build rule for target.
@@ -203,6 +216,33 @@ VGAinator/fast:
 	$(MAKE) -f CMakeFiles/640x480at60_25.175MHz_w_line.dir/build.make CMakeFiles/640x480at60_25.175MHz_w_line.dir/640x480at60_25.175MHz_w_line_cnt.c.s
 .PHONY : 640x480at60_25.175MHz_w_line_cnt.c.s
 
+Testing2_640x480at60_25.175MHz.o: Testing2_640x480at60_25.175MHz.c.o
+
+.PHONY : Testing2_640x480at60_25.175MHz.o
+
+# target to build an object file
+Testing2_640x480at60_25.175MHz.c.o:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz.dir/Testing2_640x480at60_25.175MHz.c.o
+.PHONY : Testing2_640x480at60_25.175MHz.c.o
+
+Testing2_640x480at60_25.175MHz.i: Testing2_640x480at60_25.175MHz.c.i
+
+.PHONY : Testing2_640x480at60_25.175MHz.i
+
+# target to preprocess a source file
+Testing2_640x480at60_25.175MHz.c.i:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz.dir/Testing2_640x480at60_25.175MHz.c.i
+.PHONY : Testing2_640x480at60_25.175MHz.c.i
+
+Testing2_640x480at60_25.175MHz.s: Testing2_640x480at60_25.175MHz.c.s
+
+.PHONY : Testing2_640x480at60_25.175MHz.s
+
+# target to generate assembly for a file
+Testing2_640x480at60_25.175MHz.c.s:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz.dir/Testing2_640x480at60_25.175MHz.c.s
+.PHONY : Testing2_640x480at60_25.175MHz.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -237,6 +277,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Testing2_640x480at60_25.175MHz"
 	@echo "... 640x480at60_25.175MHz_w_line"
 	@echo "... 640x480at60_25.175MHz"
 	@echo "... edit_cache"
@@ -247,6 +288,9 @@ help:
 	@echo "... 640x480at60_25.175MHz_w_line_cnt.o"
 	@echo "... 640x480at60_25.175MHz_w_line_cnt.i"
 	@echo "... 640x480at60_25.175MHz_w_line_cnt.s"
+	@echo "... Testing2_640x480at60_25.175MHz.o"
+	@echo "... Testing2_640x480at60_25.175MHz.i"
+	@echo "... Testing2_640x480at60_25.175MHz.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

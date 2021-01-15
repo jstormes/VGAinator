@@ -27,6 +27,44 @@
 					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Testing2_640x480at60_25.175MHz">
+				<Option output="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Testing2_640x480at60_25.175MHz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing2_640x480at60_25.175MHz"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Testing2_640x480at60_25.175MHz/fast">
+				<Option output="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Testing2_640x480at60_25.175MHz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 Testing2_640x480at60_25.175MHz/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="640x480at60_25.175MHz_w_line">
 				<Option output="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/640x480at60_25.175MHz_w_line" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug"/>
@@ -157,6 +195,9 @@
 		</Unit>
 		<Unit filename="/mnt/c/Users/jstormes/CLionProjects/VGAinator/640x480at60_25.175MHz_w_line_cnt.c">
 			<Option target="640x480at60_25.175MHz_w_line"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/jstormes/CLionProjects/VGAinator/Testing2_640x480at60_25.175MHz.c">
+			<Option target="Testing2_640x480at60_25.175MHz"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/jstormes/CLionProjects/VGAinator/main.c">
 			<Option target="VGAinator"/>
