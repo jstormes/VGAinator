@@ -1,4 +1,5 @@
 /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir
 /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles/Testing2_640x480at60_25.175MHz.dir
 /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles/640x480at60_25.175MHz_w_line.dir
 /mnt/c/Users/jstormes/CLionProjects/VGAinator/cmake-build-debug/CMakeFiles/640x480at60_25.175MHz.dir

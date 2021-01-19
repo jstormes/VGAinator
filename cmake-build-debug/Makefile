@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named Testing2_640x480at60_25.175MHz_Dice
+
+# Build rule for target.
+Testing2_640x480at60_25.175MHz_Dice: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Testing2_640x480at60_25.175MHz_Dice
+.PHONY : Testing2_640x480at60_25.175MHz_Dice
+
+# fast build rule for target.
+Testing2_640x480at60_25.175MHz_Dice/fast:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build
+.PHONY : Testing2_640x480at60_25.175MHz_Dice/fast
+
+#=============================================================================
 # Target rules for targets named Testing2_640x480at60_25.175MHz
 
 # Build rule for target.
@@ -243,6 +256,33 @@ Testing2_640x480at60_25.175MHz.c.s:
 	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz.dir/Testing2_640x480at60_25.175MHz.c.s
 .PHONY : Testing2_640x480at60_25.175MHz.c.s
 
+Testing2_640x480at60_25.175MHz_Dice.o: Testing2_640x480at60_25.175MHz_Dice.c.o
+
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.o
+
+# target to build an object file
+Testing2_640x480at60_25.175MHz_Dice.c.o:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/Testing2_640x480at60_25.175MHz_Dice.c.o
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.c.o
+
+Testing2_640x480at60_25.175MHz_Dice.i: Testing2_640x480at60_25.175MHz_Dice.c.i
+
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.i
+
+# target to preprocess a source file
+Testing2_640x480at60_25.175MHz_Dice.c.i:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/Testing2_640x480at60_25.175MHz_Dice.c.i
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.c.i
+
+Testing2_640x480at60_25.175MHz_Dice.s: Testing2_640x480at60_25.175MHz_Dice.c.s
+
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.s
+
+# target to generate assembly for a file
+Testing2_640x480at60_25.175MHz_Dice.c.s:
+	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/Testing2_640x480at60_25.175MHz_Dice.c.s
+.PHONY : Testing2_640x480at60_25.175MHz_Dice.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -277,6 +317,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... Testing2_640x480at60_25.175MHz_Dice"
 	@echo "... Testing2_640x480at60_25.175MHz"
 	@echo "... 640x480at60_25.175MHz_w_line"
 	@echo "... 640x480at60_25.175MHz"
@@ -291,6 +332,9 @@ help:
 	@echo "... Testing2_640x480at60_25.175MHz.o"
 	@echo "... Testing2_640x480at60_25.175MHz.i"
 	@echo "... Testing2_640x480at60_25.175MHz.s"
+	@echo "... Testing2_640x480at60_25.175MHz_Dice.o"
+	@echo "... Testing2_640x480at60_25.175MHz_Dice.i"
+	@echo "... Testing2_640x480at60_25.175MHz_Dice.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

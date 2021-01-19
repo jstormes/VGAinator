@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/Testing2_640x480at60_25.175MHz_Dice.c.o  -o Testing2_640x480at60_25.175MHz_Dice 
