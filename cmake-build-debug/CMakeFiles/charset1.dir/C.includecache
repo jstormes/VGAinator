@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/jstormes/CLionProjects/VGAinator/charset1.c
+stdio.h
+-
+stdlib.h
+-
+stdbool.h
+-
+charset1.h
+/mnt/c/Users/jstormes/CLionProjects/VGAinator/charset1.h
+
+/mnt/c/Users/jstormes/CLionProjects/VGAinator/charset1.h
+

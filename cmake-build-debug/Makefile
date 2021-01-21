@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named charset1
+
+# Build rule for target.
+charset1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 charset1
+.PHONY : charset1
+
+# fast build rule for target.
+charset1/fast:
+	$(MAKE) -f CMakeFiles/charset1.dir/build.make CMakeFiles/charset1.dir/build
+.PHONY : charset1/fast
+
+#=============================================================================
 # Target rules for targets named Testing2_640x480at60_25.175MHz_Dice
 
 # Build rule for target.
@@ -283,6 +296,33 @@ Testing2_640x480at60_25.175MHz_Dice.c.s:
 	$(MAKE) -f CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/build.make CMakeFiles/Testing2_640x480at60_25.175MHz_Dice.dir/Testing2_640x480at60_25.175MHz_Dice.c.s
 .PHONY : Testing2_640x480at60_25.175MHz_Dice.c.s
 
+charset1.o: charset1.c.o
+
+.PHONY : charset1.o
+
+# target to build an object file
+charset1.c.o:
+	$(MAKE) -f CMakeFiles/charset1.dir/build.make CMakeFiles/charset1.dir/charset1.c.o
+.PHONY : charset1.c.o
+
+charset1.i: charset1.c.i
+
+.PHONY : charset1.i
+
+# target to preprocess a source file
+charset1.c.i:
+	$(MAKE) -f CMakeFiles/charset1.dir/build.make CMakeFiles/charset1.dir/charset1.c.i
+.PHONY : charset1.c.i
+
+charset1.s: charset1.c.s
+
+.PHONY : charset1.s
+
+# target to generate assembly for a file
+charset1.c.s:
+	$(MAKE) -f CMakeFiles/charset1.dir/build.make CMakeFiles/charset1.dir/charset1.c.s
+.PHONY : charset1.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -317,6 +357,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... charset1"
 	@echo "... Testing2_640x480at60_25.175MHz_Dice"
 	@echo "... Testing2_640x480at60_25.175MHz"
 	@echo "... 640x480at60_25.175MHz_w_line"
@@ -335,6 +376,9 @@ help:
 	@echo "... Testing2_640x480at60_25.175MHz_Dice.o"
 	@echo "... Testing2_640x480at60_25.175MHz_Dice.i"
 	@echo "... Testing2_640x480at60_25.175MHz_Dice.s"
+	@echo "... charset1.o"
+	@echo "... charset1.i"
+	@echo "... charset1.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

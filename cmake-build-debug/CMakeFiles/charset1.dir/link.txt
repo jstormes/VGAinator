@@ -1,0 +1,1 @@
+/usr/bin/cc -g  -rdynamic CMakeFiles/charset1.dir/charset1.c.o  -o charset1 
